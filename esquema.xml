@@ -9,18 +9,38 @@
     </artista>
     <artista id="B456Y">
         <nom>Marcus</nom>
+        <pais>Inglaterra</pais>
+    </artista>
+    <artista id="J777A">
+        <nom>José Antonio</nom>
     </artista>
 </llista_artistes>
 <llista_albumes>
-    <album id="XASWQ5">
+    <album id="Album_Lucy_001">
         <titol>Verano</titol>
         <any>1980</any>
         <artistes>
-            <artista_ref ref="A123Z"></artista_ref>
+            <artista_ref ref="A123Z"/>
+        </artistes>
+    </album>
+    <album id="Mar_de_Marcus_8">
+        <titol>Oceano</titol>
+        <any>2008</any>
+        <artistes>
+            <artista_ref ref="B456Y"/>
+        </artistes>
+    </album>
+    <album id="Sigue_el_camino_777">
+        <titol>Ganador</titol>
+        <any>2023</any>
+        <artistes>
+            <artista_ref ref="J777A"/>
         </artistes>
     </album>
 </llista_albumes>
 <llista_recomanacions_albumes>
-    <recomanacio ref="XASWQ5"></recomanacio>
+    <recomanacio ref="Album_Lucy_001"/>
+    <recomanacio ref="Mar_de_Marcus_8"/>
+    <recomanacio ref="Sigue_el_camino_777"/>
 </llista_recomanacions_albumes>
 </cataleg_musica>
