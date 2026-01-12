@@ -1,0 +1,14 @@
+<!ELEMENT joc (titol, companyia, plataforma, anyLlançament, personatges, nivells)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT companyia (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT anyLlançament (#PCDATA)>
+<!ELEMENT personatges (personatge+)>
+<!ELEMENT personatge (nom)>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST personatge tipus (heroi | company | mentora) #REQUIRED>
+<!ELEMENT nivells (nivell+)>
+<!ELEMENT nivell (nom)>
+<!ATTLIST nivell dificultat (baixa | mitjana | alta) #REQUIRED>
+
+

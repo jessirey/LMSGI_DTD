@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE cataleg_musica SYSTEM "esquema.dtd"> 
+<cataleg_musica>
+<llista_artistes>
+    <artista id="A123Z">
+        <nom>Lucy</nom>
+        <pais>España</pais>
+        <genere>Clásico</genere>
+    </artista>
+    <artista id="B456Y">
+        <nom>Marcus</nom>
+    </artista>
+</llista_artistes>
+<llista_albumes>
+    <album id="XASWQ5">
+        <titol>Verano</titol>
+        <any>1980</any>
+        <artistes>
+            <artista_ref ref="A123Z"></artista_ref>
+        </artistes>
+    </album>
+</llista_albumes>
+<llista_recomanacions_albumes>
+    <recomanacio ref="XASWQ5"></recomanacio>
+</llista_recomanacions_albumes>
+</cataleg_musica>

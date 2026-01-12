@@ -1,0 +1,21 @@
+<!ELEMENT joc (titol, companyia, plataforma, anyLlançament, modesJoc, personatges, regions)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT companyia (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT anyLlançament (#PCDATA)>
+<!ELEMENT modesJoc (mode+)>
+<!ELEMENT mode (#PCDATA)>
+<!ATTLIST mode principal (si | no) #REQUIRED>  
+<!ELEMENT personatges (personatge+)>   
+<!ELEMENT personatge (nom)>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST personatge tipus (heroi | princesa | antagonista) #REQUIRED>
+<!ATTLIST personatge jugable (si | no) #REQUIRED>
+<!ELEMENT regions (regio+)>
+<!ELEMENT regio (nom, nota?)>
+<!ATTLIST regio clima (fred | càlid | neutre) #REQUIRED>
+<!ELEMENT nota (#PCDATA)>
+
+
+
+
